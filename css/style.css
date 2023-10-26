@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+body{
+    font-family: "Sharp Grotesk DB Cyr Medium 20 Regular";
+    font-size: .9rem;
+}
+
+/* HEADER */
+
+.width-100{
+    width: 100%;
+}
+
+nav{
+    min-height: 60px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.fxd{
+    position: fixed;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+.padding-inizia{
+    padding: 5px 10px;
+}
+
+.gap-2{
+    gap: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-inizia{
+    background-color: rgba(0,97,255,255);
+}
+
+
+.grey-color{
+    color: rgb(137, 137, 137);
+}
+

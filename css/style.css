@@ -64,6 +64,7 @@ a{
 
 .bg-inizia{
     background-color: rgba(0,97,255,255);
+    padding: .7rem 1rem;
 }
 
 
@@ -133,3 +134,25 @@ main i{
 }
 
 /* SECTION-2 */
+
+.container-sm{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.margin-top-30{
+    margin-top: 50px;
+}
+
+.radio-check{
+    display: block;
+    position: relative;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
+}

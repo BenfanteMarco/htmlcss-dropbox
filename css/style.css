@@ -305,3 +305,43 @@ h4{
 .margin-right-300{
     margin-right: 300px;
 }
+
+.partner-section .container-sm div:first-child{
+    min-width: 50%;
+}
+
+.partner-section img{
+    display: block;
+    width: 100%;
+}
+
+.partner-section{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.padding-inizia-2{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+
+.partner-section .container-sm div:last-child{
+    padding: 2.5rem;
+}
+.partner-section a{
+    align-self: flex-start;
+}
+
+h5{
+    font-size: 30px;
+}
+
+.gap-y-3{
+    margin-right: 80px;
+    gap: 2rem 0;
+}
+
+.gray{
+    color: gray;
+}

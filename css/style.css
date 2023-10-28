@@ -317,7 +317,7 @@ h4{
 
 .partner-section{
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .padding-inizia-2{
@@ -329,6 +329,7 @@ h4{
 .partner-section .container-sm div:last-child{
     padding: 2.5rem;
 }
+
 .partner-section a{
     align-self: flex-start;
 }
@@ -344,4 +345,24 @@ h5{
 
 .gray{
     color: gray;
+}
+
+/* SECTION-4 */
+
+.card-bottom{
+    width: calc(100% / 3);
+}
+
+.bottom-cards h3{
+    font-size: 30px;
+    text-align: start;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+img{
+    display: block;
+    width: 100%;
 }

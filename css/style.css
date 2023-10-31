@@ -454,3 +454,21 @@ div.center img{
 .center p{
     color: rgb(150, 150, 150);
 }
+
+/* SECTION-6 */
+
+.junior-jumbo .container-sm{
+    min-height: 300px;
+}
+
+.junior-jumbo{
+    background-color: rgba(180,208,231,255);
+}
+
+.junior-jumbo h5{
+    color: rgba(103,17,44,255);
+}
+
+.padding-0-100{
+    padding: 0 60px;
+}

@@ -362,7 +362,95 @@ h5{
     flex-wrap: wrap;
 }
 
-img{
+.bottom-cards img{
     display: block;
     width: 100%;
+}
+
+/* SECTION-5 */
+
+.logos-square{
+    max-width: 100%;
+}
+
+.first, .second, .center{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.logo{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    position: relative;
+}
+
+.designit{
+    background-color: rgba(162,211,155,255);
+    box-shadow: inset 0 0 0 15px rgba(209,233,205,255);
+}
+
+.arizona{
+    background-color: rgba(97,8,43,255);
+}
+
+.florida{
+    background-color: rgba(0,147,206,255);
+}
+
+.topps{
+    background-color: rgba(255,28,28,255);
+}
+
+.wbr{
+    background-color: rgba(213,0,31,255);
+}
+
+.hearst{
+    background-color: rgba(180,208,231,255);
+}
+
+.lonley{
+    background-color: rgba(13,36,129,255);
+}
+
+.clear{
+    background-color: rgba(255,216,48,255);
+}
+
+div.logo img{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(5);
+}
+
+.logos-square h2{
+    max-width: 60%;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.padding-bottom-100{
+    padding-bottom: 100px;
+}
+
+div.center img{
+    max-width: 60%;
+}
+
+.center{
+    padding: 40px;
+}
+
+.center hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgb(145, 145, 145);
+    width: 25%;
+}
+
+.center p{
+    color: rgb(150, 150, 150);
 }

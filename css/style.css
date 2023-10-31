@@ -417,6 +417,11 @@ h5{
     background-color: rgba(255,216,48,255);
 }
 
+.center{
+    background-color: rgba(245,245,245,255);
+}
+
+
 div.logo img{
     width: 40%;
     position: absolute;
@@ -457,6 +462,8 @@ div.center img{
 
 /* SECTION-6 */
 
+/* JUMBO */
+
 .junior-jumbo .container-sm{
     min-height: 300px;
 }
@@ -471,4 +478,32 @@ div.center img{
 
 .padding-0-100{
     padding: 0 60px;
+}
+
+/* FAQ */
+
+.domande{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.faq hr{
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.faq h5{
+    margin: 50px 0;
+}
+
+.faq{
+    min-height: 500px;
+    margin-top: 100px;
+}
+
+.arrow{
+    position: relative;
+    bottom: 25%;
+    padding-right: 25px;
 }

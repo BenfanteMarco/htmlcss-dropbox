@@ -507,3 +507,34 @@ div.center img{
     bottom: 25%;
     padding-right: 25px;
 }
+
+  /* FOOTER */
+
+  .footer-ul{
+    width: calc(100% / 5);
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    padding: 8rem 0;
+  }
+
+  .footer-ul span{
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.footer-ul ul li{
+    margin: .5rem 0;
+    font-size: 10px;
+}
+
+footer hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid #eee;
+    width: 10%;
+    margin: 2rem 0;
+}
